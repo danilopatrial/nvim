@@ -11,5 +11,10 @@ return require('packer').startup(function(use)
 		-- or                          , branch = '0.1.x',
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
-
+	use ({  -- Catppuccin theme
+		"catppuccin/nvim", as = "catppuccin",
+		config = function()
+			vim.cmd("colorscheme catppuccin")
+		end
+	})
 end)
