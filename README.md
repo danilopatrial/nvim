@@ -7,6 +7,9 @@
 -- while in normal mode
 "leader" = " "  -- vim.g.mapleader set to space bar
 "<leader>pv" = vim.cmd.Ex  -- access explorer
+
+-- while in insert mode
+"<leader><Tab>" = <Esc>  -- exit insert mode
 ```
 
 ## CMP
