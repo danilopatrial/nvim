@@ -65,6 +65,8 @@ require('packer').startup(function(use)
 		"saadparwaiz1/cmp_luasnip",  -- Snippets source for nvim-cmp
 	}
 
+	use 'windwp/nvim-autopairs'	
+
 	if packer_bootstrap then
 		require('packer').sync()
 	end

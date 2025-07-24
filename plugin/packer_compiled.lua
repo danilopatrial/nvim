@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Danilo Patrial\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "C:\\Users\\Danilo Patrial\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "C:\\Users\\Danilo Patrial\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
