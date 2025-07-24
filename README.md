@@ -9,7 +9,7 @@
 "<leader>pv" = vim.cmd.Ex  -- access explorer
 
 -- while in insert mode
-"<leader><Tab>" = <Esc>  -- exit insert mode
+"<leader><Tab>" = "<Esc>"  -- exit insert mode
 ```
 
 ## CMP
