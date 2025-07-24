@@ -21,3 +21,8 @@ lspconfig.pyright.setup({
   filetypes = { "python" },
 })
 
+-- clangd
+lspconfig.clangd.setup{
+    cmd = { "C:\\Program Files\\LLVM\\bin\\clangd.exe" },
+}
+
