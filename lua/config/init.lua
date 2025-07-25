@@ -54,7 +54,8 @@ require('packer').startup(function(use)
 			require('lspconfig').pyright.setup({})
 		end
 	}
-
+    
+    -- CMP
 	use {
 		"hrsh7th/nvim-cmp",          -- Completion plugin
 		"hrsh7th/cmp-nvim-lsp",      -- LSP source for nvim-cmp
@@ -65,7 +66,17 @@ require('packer').startup(function(use)
 		"saadparwaiz1/cmp_luasnip",  -- Snippets source for nvim-cmp
 	}
 
+    -- Auto Pairs
 	use 'windwp/nvim-autopairs'	
+
+    -- Dev icons
+    use "nvim-tree/nvim-web-devicons"
+
+    -- Nvim Tree 
+    use {
+        'nvim-tree/nvim-tree.lua',
+        dependencies = { "nvim-tree/nvim-web-devicons" }
+    }
 
 	if packer_bootstrap then
 		require('packer').sync()
