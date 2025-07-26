@@ -1,5 +1,7 @@
 # My NVim Config
 
+![Preview](preview.png)
+
 > If you want to add this config to your nvim. Clone this repository at `~/.config/nvim` (linux) or `%USERPROFILE%\AppData\Local\nvim` (windows), and source the `lua.config.init.lua` file with `:so`, the `:PackerSync` it. 
 
 ## Remaps
