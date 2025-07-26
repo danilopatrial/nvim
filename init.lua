@@ -14,12 +14,12 @@ vim.api.nvim_create_autocmd("CursorHold", {
     end
 })
 
--- Hover in insert mode
-vim.api.nvim_create_autocmd("CursorHoldI", {
-    callback = function()
-        vim.lsp.buf.hover()
-    end
-})
+-- Hover in insert mode (warn: This might bring problems when writing the file if the hover in on.)
+--vim.api.nvim_create_autocmd("CursorHoldI", {
+--    callback = function()
+--        vim.lsp.buf.hover()
+--    end
+--})
 
 -- Add rounded border to hover window
 local orig_util_open_floating_preview = vim.lsp.util.open_floating_preview
