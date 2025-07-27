@@ -9,15 +9,10 @@
 -- while in normal mode
 "leader" = " "  -- vim.g.mapleader set to space bar
 "<leader>pv" = vim.cmd.Ex  -- access explorer
-"<C-c>" = "+y"  -- copy
-"<C-v>" = "+p"  -- paste
+"<leader>s" = vim.cmd.vsp  -- split screen
 
 -- while in insert mode
-"<leader><Tab>" = "<Esc>"  -- exit insert mode
-"<C-v>" = "<C-r>+"  -- paste
-
--- while in visual mode
-"<C-c>" = "+y"  -- copy
+"<C-x>" = "<Esc>"  -- exit insert mode
 ```
 
 ## CMP
