@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Danilo Patrial\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Danilo Patrial\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
   harpoon = {
     loaded = true,
     path = "C:\\Users\\Danilo Patrial\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\harpoon",

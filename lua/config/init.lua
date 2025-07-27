@@ -45,6 +45,8 @@ require('packer').startup(function(use)
 
 	-- Fugitive
 	use 'tpope/vim-fugitive'
+    use 'nvim-lua/plenary.nvim'
+    use 'lewis6991/gitsigns.nvim'
 
 	-- lspconfig
 	use {
