@@ -77,6 +77,9 @@ require('packer').startup(function(use)
         dependencies = { "nvim-tree/nvim-web-devicons" }
     }
 
+	-- Vim-be-good
+	use 'ThePrimeagen/vim-be-good'
+
 	if packer_bootstrap then
 		require('packer').sync()
 	end
