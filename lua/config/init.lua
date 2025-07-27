@@ -28,7 +28,6 @@ require('packer').startup(function(use)
 	use {
 		"catppuccin/nvim",
 		as = "catppuccin"
-		-- NOTE: Don't set colorscheme here, do it in after/plugin/colors.lua
 	}
 
 	-- Treesitter
@@ -82,6 +81,3 @@ require('packer').startup(function(use)
 		require('packer').sync()
 	end
 end)
-
---require("mason").setup {}
---require("mason-lspconfig").setup { ensure_installed = { "pyright", }, }:
