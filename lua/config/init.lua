@@ -82,6 +82,9 @@ require('packer').startup(function(use)
 	-- Vim-be-good
 	use 'ThePrimeagen/vim-be-good'
 
+    -- Minimap - codewindow
+    use 'gorbit99/codewindow.nvim'
+
 	if packer_bootstrap then
 		require('packer').sync()
 	end
