@@ -4,9 +4,23 @@ require("transparent").enable()
 vim.opt.number = true
 vim.opt.relativenumber = true
 
-vim.opt.tabstop = 4  -- Number of spaces that a <Tab> in the file counts for
-vim.opt.shiftwidth = 4  -- Number of spaces for each indentation step
-vim.opt.expandtab = true  -- Use spaces instead of tabs
+--vim.opt.tabstop = 4  -- Number of spaces that a <Tab> in the file counts for
+--vim.opt.shiftwidth = 4  -- Number of spaces for each indentation step
+--vim.opt.expandtab = true  -- Use spaces instead of tabs
+
+vim.cmd [[
+  filetype plugin indent on
+  syntax on
+]]
+
+vim.opt.expandtab = true
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.autoindent = true
+vim.opt.smartindent = false   -- disable C-like indent
+vim.opt.cindent = false
+
 
 vim.g.loaded_perl_provider = 0
 vim.g.loaded_ruby_provider = 0
